@@ -1,0 +1,12 @@
+---
+test1:
+  departfrom: DEL
+  goingto: JFK
+  date: 24/09/2022
+  stops: 1 Stop
+test2:
+  departfrom: HYD
+  goingto: JFK
+  date: 28/09/2022
+  stops: 2 Stop
+...
