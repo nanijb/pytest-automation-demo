@@ -19,7 +19,7 @@ class LaunchPage(BaseDriver):
     GOING_TO_RESULT_LIST = "//div[@class='viewport']//div[1]/li"
     SELECT_DATE_FIELD = "//input[@id='BE_flight_origin_date']"
     ALL_DATES = "//div[@id='monthWrapper']//tbody//td[@class!='inActiveTD']"
-    SEARCH_BUTTON = "//input[@type='submit']"
+    SEARCH_BUTTON = "//input[@value='Search Flights']"
 
     def getDepartFromField(self):
         return self.wait_until_element_is_clickable(By.XPATH, self.DEPART_FROM_FIELD)
